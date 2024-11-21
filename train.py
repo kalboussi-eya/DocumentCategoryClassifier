@@ -4,7 +4,7 @@ import os
 def main():
     try:
         # Chemin vers le répertoire de sauvegarde
-        save_dir = 'C:/Users/ekalboussi/OneDrive - ALTEN Group/Bureau/Project_NLP/OCR-and-Classifier-Doc/Classification/Train/safe_directory'
+        save_dir = 'Classification/Train/safe_directory'
         
         # Créer le répertoire si nécessaire
         os.makedirs(save_dir, exist_ok=True)
